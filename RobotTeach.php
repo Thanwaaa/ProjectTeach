@@ -1,5 +1,5 @@
 <?php
-$strAccessToken = " ใส่Token ที่ได้สร้างไว้ใน line levelopver รหัสที่ยาวๆนั้นอ่ะ ";
+$strAccessToken = "tMGQidpIGcNw+oheqcQ/oN8SkTm61i8zgYDOjuSYx47Q0FtfHC5bifMfiFuMjDfiaLU2hP5nSiwyxskB5f+y1dtkjlY6Jm+85rZyM18BgXRNOm0/gENjT2xHCEO0hdJfEMmsU01ehlgM081A07cbZAdB04t89/1O/w1cDnyilFU=";
 $content = file_get_contents('php://input');
 $arrJson = json_decode($content, true);
 $strUrl = "https://api.line.me/v2/bot/message/reply";
